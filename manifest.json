@@ -1,0 +1,17 @@
+{
+ "manifest_version": 2,
+ "name": "Testing",
+ "description": "Eye exercise for consistent computer users. A message will popup after constant 1 hour chrome usage.",
+ "version": "1",
+ "author": "Bhanu Shrivastava",
+"browser_action": {
+   "default_title": "Protect your eyes!",
+   "default_icon": "eye-icon.png"
+ },
+ "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+ "permissions": ["tabs", "idle"]
+}
