@@ -11,7 +11,7 @@
 	  two.fill = '#aa8888'
       var circle = two.makeCircle(two.width/2, two.height/2+r, 20);
 	  //var circle2 = two.makeCircle(0, two.height/2, 20);
-	  circle.fill = '#';
+	  circle.fill = '#ffffff';
 	  //circle2.fill = '#ff8000';
       two.bind('update', function(framecount) {
 	    if(angle>0&&angle>=posA)
